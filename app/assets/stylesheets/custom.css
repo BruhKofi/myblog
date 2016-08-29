@@ -1,0 +1,33 @@
+.marg1 {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.pad1 {
+  padding-left: 1000px;
+  padding-right: 1000px;
+}
+.width1 {
+  width: 60%;
+}
+
+.bord1  {
+  margin-top:10px;
+	border: #cdcdcd medium solid;
+	border-radius: 50px;
+}
+
+.colborder {
+  margin-top: 10px;
+  border: #cdcdcd medium solid;
+  border-radius: 10px;
+  }
+
+  .container1 {
+    padding-right: 200px;
+    padding-left: 200px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  #newcolor {
+      background-color: #730E15;
+  }
