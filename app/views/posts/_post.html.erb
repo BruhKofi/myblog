@@ -43,9 +43,9 @@ on index.html.erb will be the call
 	</ul>
 	<div class="description">
 		<h1><%=  link_to post.titile, post %></h1>
-		<h2>#BlogByVictor</h2>
-		<p class="summary"><%=post.body.truncate(150, separator: ' ', omission:' ...')%>
-    <%= link_to 'more', post %></p>
+		<h2></h2>
+		<p class="summary"><%=post.body.truncate(150, separator: ' ', omission:' ')%>
+    <%= link_to '...more', post %></p>
 
 
     <%= link_to 'Edit', edit_post_path(post), :class=>"btn btn-success"%>
