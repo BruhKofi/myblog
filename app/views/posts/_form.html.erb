@@ -26,7 +26,7 @@
 
   <div class="field">
     <%= f.label :body %>
-    <%= f.text_area :body, id: "edit" %>
+    <%= f.text_area :body, class: "form-control", id: "editor" %>
   </div>
 
 
@@ -40,13 +40,15 @@
     <%= f.submit %>
   </div>
 
+  <script>
+        $(function() {
+            $('#editor').froalaEditor()
+        });
+    </script>
+
 </form>
 
-  <script>
-       $(function() {
-           $('#edit').froalaEditor()
-       });
-   </script>
+
 
 <% end %>
 

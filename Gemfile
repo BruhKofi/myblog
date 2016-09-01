@@ -28,7 +28,7 @@ gem 'simple_form'
 
 gem "font-awesome-rails"
 
-
+gem 'jquery-hotkeys-rails'
 
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder

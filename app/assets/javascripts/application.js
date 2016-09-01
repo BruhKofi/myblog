@@ -14,16 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-//
+//= require jquery-hotkeys
+//gem 'bootstrap-wysiwyg-rails'
 //= require froala_editor.min.js
 //
 //= require bootstrap-sprockets
-
-
-
-
-
-
 
 // Include other plugins.
 //= require plugins/align.min.js
