@@ -45,10 +45,9 @@ on index.html.erb will be the call
 		<h1><%=  link_to post.titile, post %></h1>
 		<h2></h2>
 		<%=post.body.truncate(150, separator: ' ', omission:' ')%>
-    <%= link_to '...more', post %>
+    <%= link_to '...more', post %><br><br>
 
-
-    <%= link_to 'Edit', edit_post_path(post), :class=>"btn btn-success"%>
+    <%= link_to 'Edit', edit_post_path(post), :class=>"btn btn-success"%><br><br>
     <%= link_to 'Delete', post, method: :delete, data: { confirm: 'Are you sure?'}, :class=>"btn btn-danger" %>
 	</div>
 </div>
